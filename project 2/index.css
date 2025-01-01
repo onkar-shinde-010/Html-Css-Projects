@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  .container{
+    background-color: antiquewhite;
+  }
+  .main {
+    height: 100vh;
+    /*background-color: aqua;*/
+    width: 54%;
+    margin: auto;
+    /* border: 2px solid black; */
+  }
+  .Abo {
+    height: 100vh;
+     /*background-color: aqua;*/
+    width: 54%;
+    margin: auto;
+    /* border: 2px solid black; */
+  }
+  .skill {
+    height: 100vh;
+    /*background-color: aqua;*/
+    width: 54%;
+    margin: auto;
+    /* border: 2px solid black; */
+  }
+  .box1 {
+    /* border: 2px solid black; */
+    display: inline-block;
+    vertical-align: top;
+    height: 49%;
+    width: 48%;
+    margin-top: 25%;
+  }
+  .box2 {
+    /* border: 2px solid black; */
+    display: inline-block;
+    vertical-align: top;
+    /* height: 49%; */
+    width: 48%;
+    margin-top: 25%;
+    /* padding-top: 23px;
+    padding-bottom: 73px; */
+    box-sizing: border-box;
+    padding: 44px;
+    margin-left: 20px;
+  }
+  .about{
+    margin: 40px;
+  }
+  .about-head{
+  margin: 20px;
+  text-align: center;
+  }
+  .image-head{
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .image-desc{
+    margin: 71px;
+  }
+  .image{
+    /* border: 1px solid black;
+    margin: 2px; */
+    text-align: center;
+    margin: 10px;
+  }
+  .skill-head{
+    text-align: center;
+  }
+  h2{
+    /* border: 2px solid black; */
+    margin: 2px;
+    text-align: center;
+  }
+  .para{
+    margin: 6px;
+    /* border: 1px solid black; */
+  }
+
+  .img {
+    position: relative;
+    left: 0px;
+    object-fit: contain;
+    height: 80%;
+    width: 100%;
+  }
+  .s1 {
+    /* border: 2px solid black; */
+    display: inline-block;
+    vertical-align: top;
+    height: 43%;
+    width: 48%;
+    margin-top: 1%;
+    margin-left: 2px;
+  }
+  .s2 {
+    /* border: 2px solid black; */
+    display: inline-block;
+    vertical-align: top;
+    height: 43%;
+    width: 48%;
+    margin-top: 1%;
+  }
+  .s3 {
+    /* border: 2px solid black; */
+    display: inline-block;
+    vertical-align: top;
+    height: 43%;
+    width: 48%;
+    margin-top: 1%;
+    margin-left: 2px;
+  }
+  .s4 {
+    /* border: 2px solid black; */
+    display: inline-block;
+    vertical-align: top;
+    height: 43%;
+    width: 48%;
+    margin-top: 1%;
+  }
+  .img1{
+    object-fit: contain;
+    height: 71%;
+    width: 99%;
+    margin: 1px;
+  }
+  .img2{
+    object-fit: contain;
+    height: 73%;
+    width: 99%;
+    margin: 1px;
+  }
+  .img3{
+    object-fit: contain;
+    height: 70%;
+    width: 99%;
+    margin: 1px;
+  }
+  .img4{
+    object-fit: fill;
+    height: 70%;
+    width: 99%;
+    margin: 1px;
+  }
+  
