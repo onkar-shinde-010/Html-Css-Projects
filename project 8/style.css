@@ -1,0 +1,27 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.mainbox{
+    background-color: aquamarine;
+}
+.box {
+  display: flex;
+  justify-content: space-between;
+  background-color: hsl(180, 11%, 57%);
+}
+.box1 {
+  display: flex;
+  margin-bottom: 10px;
+}
+h1 {
+  margin: 10px;
+  margin-left: 10px;
+}
+body {
+  background-image: url(https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=600);
+  background-size: cover;
+  background-position: 75% 15%;
+  margin-bottom: 10px;
+  
+}
