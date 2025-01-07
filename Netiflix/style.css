@@ -1,0 +1,276 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    color: white;
+    background-color: black;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container{
+    background-image: linear-gradient(to top right,rgba(0,0,0,0.9),rgba(0,0,0,0.5)),url(https://assets.nflxext.com/ffe/siteui/vlv3/2f5a878d-bbce-451b-836a-398227a34fbf/web/IN-en-20241230-TRIFECTA-perspective_5ab944a5-1a71-4f6d-b341-8699d0491edd_large.jpg);
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+}
+.logo{
+    height: 10vh;
+    width: 10vw;
+    position: absolute;
+    top:10px;
+    left: 160px;
+}
+
+.head{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top:30px;
+    gap: 20px;
+    right: 160px;
+}
+.getstart:hover{
+    background-color: rgb(82, 31, 31);
+}
+
+.signin{
+    background-color: rgb(255, 34, 34);
+    border: 0.5px solid red;
+    height: 5vh;
+    width: 10vw;
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    
+}
+.signin:hover{
+    background-color: rgb(82, 31, 31);
+}
+
+.lang{
+    height: 5vh;
+    width: 10vw;
+    /* padding: 10px; */
+    font-size: 16px;
+    border-radius: 5px;
+
+}
+.input-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+h1{
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+}
+
+h5{
+    font-size: 1.6rem;
+    margin-bottom: 25px;
+}
+h6{
+    font-size: 1.5;
+    margin-bottom: 25px;
+}
+.email{
+    background-color: black;
+    border: 0.5px solid ;
+    border-radius: 5px;
+    color: white;
+    height: 5vh;
+    width: 20vw;
+    /* padding: 5px; */
+}
+.getstart{
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+    height: 5vh;
+    width: 10vw;
+
+}
+/* .getstart:hover{
+    background-color: rgb(117, 38, 190);
+} */
+.main-body{
+    padding-left: 10%;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+/* .divider{
+    width: 100%;
+    height: 40px;
+    border-top:rgb(255, 50, 50) 4px solid ;
+    border-radius: 50%/24px 24px 0 0;
+    background-image: linear-gradient(to bottom, rgb(36, 12, 99) 1% , black 100%);
+} */
+.country{
+    height: 6vh;
+    width: 8vw;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgba(0,0,0,0.7);
+    border-radius: 5px;
+    /* margin-top: 40px; */
+}
+.mavies{
+    position: relative;
+    height: 300px;
+    width: 200px;
+    box-sizing: border-box;
+}
+.mavies:hover .image{
+    transform: scale(1.2);
+}
+.image{
+    height: 250px;
+    width: 170px;
+    border-radius: 7px;
+    transition: all 1s ease-in-out;
+    
+}
+.trending-movies{
+    /* height: 100vh;
+    width: 100vw; */
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 30px;
+}
+.bosx{
+    display: flex;
+    gap: 5px;
+    /* border: 1px solid red; */
+}
+.box{
+    height: 300px;
+    width: 200px;
+    border: 1px solid red;
+    justify-content: space-between; 
+    border-radius: 10px;
+    background-color: rgb(41, 0, 80);
+    margin: 20px;
+    padding: 20px;
+
+}
+h3{
+    margin-bottom: 25px;
+
+}
+.hi{
+    margin-top: 60px;
+}
+.desk{
+    height: 50px;
+    width: 50px;
+    margin-top: 120px;
+    margin-left: 150px;
+    
+}
+.desk1{
+    height: 50px;
+    width: 50px;
+    margin-top: 120px;
+    margin-left: 150px;
+    
+}
+.desk2{
+    height: 50px;
+    width: 50px;
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.desk3{
+    height: 50px;
+    width: 50px;
+    margin-top: 85px;
+    margin-left: 150px;
+}
+.sentance{
+    margin-top: 20px;
+    font-size: large;
+    border: 1px solid rgb(40, 40, 40);
+    background-color: rgb(40, 40, 40);
+    width: 82vw;
+    height: 6vh;
+    padding-top: 20px;
+}
+.cent{
+    text-align: center;
+    margin-right: 200px;
+}
+.inter{
+    margin: auto;
+    text-align: center;
+    margin-right: 250px;
+    
+}
+.email1{
+    background-color: black;
+    border: 0.5px solid ;
+    border-radius: 5px;
+    color: white;
+    height: 8vh;
+    width: 40vw;
+}
+.get1{
+    background-color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: white;
+    height: 8vh;
+    width: 18vw;
+}
+.get1:hover{
+    background-color: rgb(109, 37, 177);
+}
+.int{
+    font-size: 1rem;
+    color: white;
+    margin-top: 20px;
+}
+.var{
+    margin-top: 10px;
+    text-decoration-line: underline;
+    font-size: 1rem;
+
+}
+.var1{
+    margin-top: 10px;
+    text-decoration-line: underline;
+    font-size: 1rem;
+    background-color: blue; 
+}
+.Button{
+    height: 30px;
+    width: 110px;
+    font-size: 1.1rem;
+    margin-top: 50px;
+    background-color: rgba(27,26,26,0.918);
+    color: white;
+    border-radius: 5px;
+}
+
+.spark{
+    display: flex;
+}
+.pen{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-right: 150px;
+    margin-top: 30px;
+}
+
